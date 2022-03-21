@@ -9,10 +9,10 @@ body {
 .container {
   background: #333439;
   color: #F7F7F7;
-  margin: 64px;
+  margin: 32px;
   border-radius: 20px;
   box-shadow: 6px 6px 5px #160e30;
-  padding: 64px;
+  padding: 32px;
 }
 
 .cabecalho {
@@ -62,7 +62,7 @@ body {
   flex-direction: column;
   background: Linear-gradient(230.65deg, #ca57ff 27.26%, #dd94ff 96.03%);
   margin-top: 32px;
-  padding: 32px;
+  padding: 16px;
   border-radius: 20px;
   box-shadow: 2px 2px 4px #290e30;
 }
@@ -80,9 +80,27 @@ body {
   line-height: 36px;
 }
 
+.projetos-item{
+  padding: 24px;
+}
+
+.repositorios-item{
+  padding: 4px;
+}
+
 .projetos-item a, .repositorios-item a{
-  color: #1C1C1C;
   text-decoration: none;
+}
+
+.codepen{
+  height: 600px;
+  box-sizing: border-box; 
+  display: flex; 
+  align-items: center; 
+  justify-content: center; 
+  border: 2px solid; 
+  margin: 1em 0; 
+  padding: 1em;
 }
 
 .light{
