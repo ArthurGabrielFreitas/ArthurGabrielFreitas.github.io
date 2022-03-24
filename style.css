@@ -2,7 +2,6 @@
 
 body {
   background: linear-gradient(236.85deg, #32042e 27.26%, #a73445 96.03%);
-  background: no-repeat
   font-family: "Roboto", sans-serif;
 }
 
@@ -70,7 +69,7 @@ body {
 .projetos-titulo, .repositorios-titulo{
   list-style: none;
   font-weight: 700;
-  font-size: 36px
+  font-size: 36px;
 }
 
 .projetos-item, .repositorios-item{
@@ -119,4 +118,5 @@ body {
 .light .tema button{  
   background: #ECF4FF;
   color: #0E1D2F;
+  border: 2px solid #121212;
 }
